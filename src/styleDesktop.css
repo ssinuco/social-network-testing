@@ -1,0 +1,134 @@
+@media screen and (min-width: 769px) {
+    .screen-login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .img-login{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-login img{
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 600px;
+        max-height: 550px;
+        margin-left: 15px;       
+    }
+
+    .container-form{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-login{
+        width: 50%;
+    }
+
+    .section-signin,
+    .section-login {
+        display: flex;
+        align-items: center;
+    }
+
+    .divLogin h1{
+        font-size: 90px;
+        text-align:end;
+    }
+    
+    .logo{
+        width: 80px;
+        height: 80px;
+        margin-top: 0;
+    }
+    .section-signin .input-group input{
+        margin-top: 3%;
+    }
+    #gender select{
+        margin-top: 3%;
+    }
+    .headSignin{
+        margin-bottom: 0;
+        padding-top: 15px ;
+        margin-top: 0;
+    }
+    .line div {
+        width: 38%;
+    }
+
+    .body-home{
+        display: grid;
+        grid-template-columns: 5% 5% 65% 10% 15%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .content-header{
+        width: 85%;
+    }
+    .header-feed{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .header-home{
+        align-items: flex-start;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .content-menu {
+        right: 0;
+        left: 0;
+        position:relative;
+        background-color: white;
+        display: grid;
+        height: 200px;
+        grid-column: 4/5;
+        width: 100%;
+    }
+    .menu-title-icon{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+    }
+    .nav-menu {
+        padding: 10px;
+        border-top: none;
+        width: 10%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nav-menu img{
+        width: 30px;
+        height: 30px;
+    }
+    .div-title{
+        display: flex;
+        padding: 10px;
+        border-top: none;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .feed{
+        width: 100%;
+        
+    }
+    .body-notFound  #img-notFound{
+        background-image: url('./images/404.webp');
+      }
+    
+}
