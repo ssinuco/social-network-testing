@@ -70,16 +70,8 @@ export const login = () => {
           localStorage.setItem("username", userCredentials.user.displayName);
           window.location.hash = "#/home";
       })
-      .catch((error) => {
-        let code = error.code;
-        switch (code) {
-          case "auth/wrong-password":
-            disableLoginButton(3);
-            break;
-          case "auth/user-not-found":
-            disableLoginButton(6);
-            break;
-        }
+      .catch((time) => {
+        disableLoginButton(time);
       });
   });
   return divLogin;
